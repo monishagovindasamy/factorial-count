@@ -1,4 +1,4 @@
-# Wallet Micro Service
+# Factorial Micro Service
 
 ## Dependencies
 - Latest Intellij IDE version
