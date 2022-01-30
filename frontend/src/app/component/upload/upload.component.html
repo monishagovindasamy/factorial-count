@@ -1,0 +1,18 @@
+<div>
+  <mat-form-field>
+    <div>
+      <mat-toolbar>
+        <input [value]="fileName" matInput />
+        <button (click)="upload()" [disabled]="!currentFile" class="primary" mat-flat-button>
+          Upload
+        </button>
+      </mat-toolbar>
+      <input (change)="selectFile($event)" id="fileInput" name="fileInput" type="file" />
+    </div>
+  </mat-form-field>
+</div>
+<div style="padding-top: 20px">
+  <div *ngIf="message" class="message">
+    {{ message }}
+  </div>
+</div>
