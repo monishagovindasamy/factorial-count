@@ -7,7 +7,7 @@
 
 ## Technology stack
 - Type: web server application
-- Language: Java 11
+- Language: Kotlin
 - Framework: Spring Boot framework
 - Build tool: Gradle
 

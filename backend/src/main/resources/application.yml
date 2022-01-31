@@ -1,0 +1,9 @@
+server:
+  shutdown: graceful
+  port: 8080
+  compression:
+    enabled: true
+  http2:
+    enabled: true
+  servlet:
+    context-path: /api
